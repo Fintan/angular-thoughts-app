@@ -9,6 +9,8 @@ Similar demo to https://github.com/Fintan/thoughts-sample-app but using Angularj
 
 A simple application for compiling thoughts.
 
+Demo ([http://fboyle.com/demo/thoughts/#/thoughts/456] [demo_link])
+
 ##Functionality:
 
 ###Main menu
@@ -44,6 +46,8 @@ Retrieve third party dependencies using **npm install** and **bower install**.
 
 [fintangit_www]: https://github.com/Fintan
 Fintan Boyle ([https://github.com/Fintan] [fintangit_www])
+
+[demo_link]: http://fboyle.com/demo/thoughts/#/thoughts/456
 
 ## License
 
