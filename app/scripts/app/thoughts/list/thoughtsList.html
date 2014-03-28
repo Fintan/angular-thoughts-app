@@ -1,0 +1,5 @@
+<a id="{{thought.id}}" data-ng-click="selectThought(thought)" data-ng-repeat="thought in thoughts | filter:taggedBy" class="thoughts-list-item list-group-item {{thoughtId === thought.id ? 'active' : 'none'}}">
+	<h5 id="title" class="list-group-item-heading">{{thought.title}}</h5>
+	<p id="description" class="list-group-item-text">{{thought.description}}</p>
+</a>
+<div data-ng-hide="thoughts.length">No thoughts</div>

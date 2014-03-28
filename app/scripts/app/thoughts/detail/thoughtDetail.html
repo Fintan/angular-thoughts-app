@@ -1,0 +1,38 @@
+<div class="col-sm-12 col-md-12">
+	<div class="row">
+		<div class="page-header col-sm-12 col-md-12">
+			<button data-ng-click="deleteThought()" type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-minus"></span></button>
+		</div>
+	</div>
+<div>
+<div class="col-sm-12 col-md-12">
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+			
+			<form class="form-horizontal" role="form">
+				<div class="form-group">
+					<label for="inputTitle" class="col-sm-2 control-label">Title</label>
+					<div class="col-sm-10">
+						<input id="inputTitle" data-ng-model="thought.title" type="text" class="form-control" placeholder="title here">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputDetails" class="col-sm-2 control-label">Details</label>
+					<div class="col-sm-10">
+						<textarea id="inputDetails" data-ng-model="thought.description" placeholder="details" class="form-control" rows="3"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputTags" class="col-sm-2 control-label">Tags</label>
+					<div class="col-sm-10">
+						<input id="inputTags" data-ng-model="thought.tags" type="text" class="form-control" placeholder="tags here (comma delimited)">
+					</div>
+				</div>
+				<div class="text-right">
+					<button type="submit" ng-click="saveThought()" class="btn btn-default">Save</button>
+				</div>
+			</form>
+
+		</div>
+	</div>
+<div>

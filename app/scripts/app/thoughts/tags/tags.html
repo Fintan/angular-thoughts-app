@@ -1,0 +1,6 @@
+<div class="page-header">
+	<h3>Tags</h3>
+</div>
+<ul class="nav nav-pills">
+<li data-ng-repeat="tag in tags" data-ng-show="{{tag.thoughtIds.length}}"><a href="#thoughts?tag={{tag.label}}"><span class="badge pull-right">{{tag.thoughtIds.length}}</span>{{tag.label}} </a></li>
+</ul>
